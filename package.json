@@ -1,0 +1,15 @@
+{
+  "name": "fivem-discord-control",
+  "version": "1.0.0",
+  "description": "Bot de Discord para registrar bandos y detectar jugadores en un servidor FiveM público",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
